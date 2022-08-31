@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-mock",
-  "version": "0.10.2",
-  "description": "A simple mock interface specifically for testing code relying on Sequelize models",
+  "name": "sequelize-mock-clone",
+  "version": "0.10.4",
+  "description": "A simple mock interface specifically for testing code relying on Sequelize models. It is a clone of the original sequelize-mock package which is currently not updated anymore. For the moment the core difference of this package is that the function findByPk is not throwing an error. Compared to the also existing package sequelize-mock-v5 the package removed replaced findById instead of adding findByPk as an alias of findById.",
   "main": "src/index.js",
   "scripts": {
     "doc-gen": "node scripts/doc-gen.js",
